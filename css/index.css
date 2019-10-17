@@ -153,7 +153,7 @@ button {
     text-align: center;
 
     width: 48%;
-    /* min-width: 250px; */
+    
 }
 
 .top-info {
@@ -225,13 +225,10 @@ button {
 
 }
 @media (max-width: 500px) {
- /* hr {
-   width: 98%;
- } */
+ 
   .navbar {
-    /* width: 100%; */
-  /* display: flex; */
-  flex-direction: column;
+   
+    flex-direction: column;
   }
     
   .navbar a {
@@ -241,25 +238,5 @@ button {
     margin: 0px;
     color: lightgray;
   } 
-/* 
-  .two-column {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
 
-  } */
-
- 
-
-  /* .bottom-info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-  } */
-
-  /* .three-column {
-    width: 100%;
-  } */
 }

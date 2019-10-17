@@ -175,11 +175,9 @@ a {
 }
 
 .copyright {
-	
-	  margin-left: auto;
-	  margin-right: auto;
-	  width: 20%;
-}
+	margin-top: 20px;
+	text-align: center;
+  }
 
 
 
@@ -228,25 +226,10 @@ button {
 	{
 		display: flex;
 		margin-left: auto;
-	  margin-right: auto;
+	    margin-right: auto;
 	}
-	/* .service-facts div {
-		display: flex;
-		align-items: center;
-	} */
-	/* .service-facts-details div{
-		width: 50%;
-		display: flex;
-		flex-direction: row;
-	} */
-
-	.copyright {
 	
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
-  }
-
+	
   li {
 	  margin-bottom: 15px;
   }
@@ -254,8 +237,6 @@ button {
   @media (max-width: 500px) {
 
 	.navbar {
-		/* width: 100%; */
-	  /* display: flex; */
 	  flex-direction: column;
 	  }
 		
